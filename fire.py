@@ -30,18 +30,18 @@ college_fund_annual_529 = 6000
 roth_fund_for_kid_annual = 6000
 roth_fund_for_kid = "no"
 number_of_kids = 1
-kid_year = 2025
+kid_year = 2024
 kid2_year = 0
 kid3_year = 0
-new_home_cost_annual = 24000
-#Assuming 400K home ^
-new_home_year = 0
+new_home_cost_annual = 18000
+#Assuming 400K home is 24000 500K is 30000 300K is 18000 ^
+new_home_year = 2024
 new_car_cost_annual = 6000
 new_car_year = 0
 
 #Introduce New Income Variables
 updated_annual_post_tax_income = 58079
-updated_income_year = 2025
+updated_income_year = 0
 rental_income = 8800
 rental_income_year = 0
 
@@ -53,7 +53,7 @@ margin_list = []
 annual_expenses_list = []
 annual_post_tax_income_list = []
 
-#Year function
+#Output is starting year age so at 31 if retirement savings is X that's what you'd start at
 
 withdrawal_amt = retirement_savings*estimated_withdrawal_rate
 
